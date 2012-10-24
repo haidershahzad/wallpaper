@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48B2F0A163866A400891EEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B2F09163866A400891EEE /* UIKit.framework */; };
+		C48B2F0C163866A400891EEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B2F0B163866A400891EEE /* Foundation.framework */; };
+		C48B2F0E163866A400891EEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48B2F0D163866A400891EEE /* CoreGraphics.framework */; };
+		C48B2F14163866A400891EEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C48B2F12163866A400891EEE /* InfoPlist.strings */; };
+		C48B2F16163866A400891EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B2F15163866A400891EEE /* main.m */; };
+		C48B2F1A163866A400891EEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B2F19163866A400891EEE /* AppDelegate.m */; };
+		C48B2F1D163866A400891EEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48B2F1C163866A400891EEE /* ViewController.m */; };
+		C48B2F20163866A400891EEE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48B2F1E163866A400891EEE /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C48B2F05163866A400891EEE /* wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48B2F09163866A400891EEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C48B2F0B163866A400891EEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C48B2F0D163866A400891EEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C48B2F11163866A400891EEE /* wallpaper-Info.plist */ = {isa = PBXFileReference; path = "wallpaper-Info.plist"; sourceTree = "<group>"; };
+		C48B2F13163866A400891EEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C48B2F15163866A400891EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C48B2F17163866A400891EEE /* wallpaper-Prefix.pch */ = {isa = PBXFileReference; path = "wallpaper-Prefix.pch"; sourceTree = "<group>"; };
+		C48B2F18163866A400891EEE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C48B2F19163866A400891EEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C48B2F1B163866A400891EEE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C48B2F1C163866A400891EEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C48B2F1F163866A400891EEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48B2F02163866A400891EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B2F0A163866A400891EEE /* UIKit.framework in Frameworks */,
+				C48B2F0C163866A400891EEE /* Foundation.framework in Frameworks */,
+				C48B2F0E163866A400891EEE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48B2EFA163866A300891EEE = {
+			isa = PBXGroup;
+			children = (
+				C48B2F0F163866A400891EEE /* wallpaper */,
+				C48B2F08163866A400891EEE /* Frameworks */,
+				C48B2F06163866A400891EEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48B2F06163866A400891EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48B2F05163866A400891EEE /* wallpaper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48B2F08163866A400891EEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48B2F09163866A400891EEE /* UIKit.framework */,
+				C48B2F0B163866A400891EEE /* Foundation.framework */,
+				C48B2F0D163866A400891EEE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48B2F0F163866A400891EEE /* wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				C48B2F18163866A400891EEE /* AppDelegate.h */,
+				C48B2F19163866A400891EEE /* AppDelegate.m */,
+				C48B2F1B163866A400891EEE /* ViewController.h */,
+				C48B2F1C163866A400891EEE /* ViewController.m */,
+				C48B2F1E163866A400891EEE /* ViewController.xib */,
+				C48B2F10163866A400891EEE /* Supporting Files */,
+			);
+			path = wallpaper;
+			sourceTree = "<group>";
+		};
+		C48B2F10163866A400891EEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48B2F11163866A400891EEE /* wallpaper-Info.plist */,
+				C48B2F12163866A400891EEE /* InfoPlist.strings */,
+				C48B2F15163866A400891EEE /* main.m */,
+				C48B2F17163866A400891EEE /* wallpaper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48B2F04163866A400891EEE /* wallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48B2F23163866A400891EEE /* Build configuration list for PBXNativeTarget "wallpaper" */;
+			buildPhases = (
+				C48B2F01163866A400891EEE /* Sources */,
+				C48B2F02163866A400891EEE /* Frameworks */,
+				C48B2F03163866A400891EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wallpaper;
+			productName = wallpaper;
+			productReference = C48B2F05163866A400891EEE /* wallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48B2EFC163866A300891EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = ABC;
+			};
+			buildConfigurationList = C48B2EFF163866A300891EEE /* Build configuration list for PBXProject "wallpaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C48B2EFA163866A300891EEE;
+			productRefGroup = C48B2F06163866A400891EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48B2F04163866A400891EEE /* wallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48B2F03163866A400891EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B2F14163866A400891EEE /* InfoPlist.strings in Resources */,
+				C48B2F20163866A400891EEE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48B2F01163866A400891EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B2F16163866A400891EEE /* main.m in Sources */,
+				C48B2F1A163866A400891EEE /* AppDelegate.m in Sources */,
+				C48B2F1D163866A400891EEE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C48B2F12163866A400891EEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48B2F13163866A400891EEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C48B2F1E163866A400891EEE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48B2F1F163866A400891EEE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48B2F21163866A400891EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C48B2F22163866A400891EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C48B2F24163866A400891EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wallpaper/wallpaper-Prefix.pch";
+				INFOPLIST_FILE = "wallpaper/wallpaper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C48B2F25163866A400891EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wallpaper/wallpaper-Prefix.pch";
+				INFOPLIST_FILE = "wallpaper/wallpaper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48B2EFF163866A300891EEE /* Build configuration list for PBXProject "wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48B2F21163866A400891EEE /* Debug */,
+				C48B2F22163866A400891EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48B2F23163866A400891EEE /* Build configuration list for PBXNativeTarget "wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48B2F24163866A400891EEE /* Debug */,
+				C48B2F25163866A400891EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48B2EFC163866A300891EEE /* Project object */;
+}
